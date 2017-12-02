@@ -1,5 +1,5 @@
 FROM fcocozza/ubuntu-node:latest
-
+LABEL maintainer="fcocozza@gmail.com"
 RUN mkdir -p /demo_express_app
 WORKDIR /demo_express_app
 
