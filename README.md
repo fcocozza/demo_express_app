@@ -16,5 +16,4 @@ commit
 
 
 This wasn changed in branch1
-
 this is from branch2
