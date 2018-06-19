@@ -1,7 +1,7 @@
 #!/bin/bash
 echo $(date)
-echo "$CF_VOLUME_PATH"
-echo "$CF_REPO_NAME"
+#echo "$CF_VOLUME_PATH"
+#echo "$CF_REPO_NAME"
 #ls $CF_VOLUME_PATH/$CF_REPO_NAME/
 cp $CF_VOLUME_PATH/$CF_REPO_NAME/* /docker-entrypoint-initdb.d/
 echo 'ls /docker-entrypoint-initdb.d'
