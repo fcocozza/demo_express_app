@@ -5,7 +5,6 @@ WORKDIR /demo_express_app
 
 COPY . /demo_express_app
 RUN useradd -ms /bin/bash newuser
-USER newuser
 COPY --chown=newuser:newuser README.md READMECOPIED.md
 RUN npm install express --save
 
