@@ -4,6 +4,7 @@ RUN mkdir -p /demo_express_app
 WORKDIR /demo_express_app
 
 COPY . /demo_express_app
+USER ubuntu:ubuntu
 COPY --chown=ubuntu:ubuntu README.md READMECOPIED.md
 RUN npm install express --save
 
