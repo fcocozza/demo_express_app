@@ -1,0 +1,5 @@
+USE eiric ;
+CREATE TABLE Actors (
+ ActorId INT NOT NULL AUTO_INCREMENT,
+ ActorName VARCHAR(255) NOT NULL,
+ PRIMARY KEY (ActorId));
